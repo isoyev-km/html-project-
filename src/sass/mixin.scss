@@ -8,6 +8,13 @@
     content: $content;
 }
 
+@mixin pseudoline($display: inline-block, $content: '', $width:60px, $height:1px) {
+    display: $display;
+    content: $content;
+    width: $width;
+    height: $height;
+}
+
 @mixin bg-image($path: '', $size: cover, $repeat: no-repeat, $pos: center) {
     background-image: url($path);
     background-size: $size;
