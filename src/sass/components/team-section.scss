@@ -104,16 +104,32 @@
                 flex-direction: row;
                 justify-content: space-between;
             }
-            
-            // .team-overlay__icon--twitter {
-            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
-            // }
-            // .team-overlay__icon--facebook {
-            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
-            // }
-            // .team-overlay__icon--linkedin {
-            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
-            // }
+
+
+            .team-overlay__icon--twitter {
+            padding: 10px;
+            width: 42px;
+            height: 42px;
+            background-color: $team-icon-hover;
+            fill: $main-text-color;
+            }
+
+            .team-overlay__icon--facebook {
+                padding: 10px;
+                width: 42px;
+                height: 42px;
+                background-color: $team-icon-hover;
+                fill: $main-text-color;
+            }
+
+            .team-overlay__icon--linkedin {
+                padding: 10px;
+                width: 42px;
+                height: 42px;
+                background-color: $team-icon-hover;
+                fill: $main-text-color;
+            }
+
             .team-card__description {
                 display: flex;
                 flex-direction: column;
@@ -156,4 +172,9 @@
                     flex-direction: row;
                     justify-content: space-between;
                 }
+            }
+
+            #icon-twitter {
+                width: 22px;
+                height: 22px;
             }
