@@ -106,13 +106,13 @@
             }
             
             // .team-overlay__icon--twitter {
-            //     @include icon-social;
+            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
             // }
             // .team-overlay__icon--facebook {
-            //     @include icon-social;
+            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
             // }
             // .team-overlay__icon--linkedin {
-            //     @include icon-social;
+            //     @include icon-social ( $padding: 10px, $width: 42px, $height: 42px, fill: $main-text-color, $size: cover, $repeat: no-repeat, $pos: center);
             // }
             .team-card__description {
                 display: flex;
