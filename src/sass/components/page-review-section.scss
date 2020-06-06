@@ -29,7 +29,7 @@
                 .slider {
                     position: relative;
                     overflow: hidden;
-                    max-width: 292px;
+                    max-width: 600px;
                     margin-left: auto;
                     margin-right: auto;
                 }
@@ -100,7 +100,7 @@
                 }
                 
                 .slider__article {
-                    margin: 30px 30px;
+                    padding: 0 40px;
                     z-index: 1;
                     position: relative;
                     font-family: 'OpenSans';
@@ -110,8 +110,8 @@
                     color: $slider__article;
                     &::before {
                         position: absolute;
-                        top: -25%;
-                        left: -14%;
+                        top: -11%;
+                        left: 0;
                         font-size: 130px;
                         z-index: -3;
                         @include pseudo($display: flex, $content: '“');
@@ -120,18 +120,13 @@
                 }
                 
                 @media(min-width: 768px) {
-                    .slider {
-                        max-width: 708px;
-                    }
                     .slider__article {
                         position: relative;
                         line-height: 1.7;
-                        max-width: 100%;
-                        margin: 50px 60px;
                     }
                     .slider__article::before {
-                        top: -64%;
-                        left: -7%;
+                        top: -25%;
+                        left: 0%;
                     }
                     .slider_text {
                         font-size: 28px;
@@ -144,19 +139,18 @@
                     }
                 }
                 
-                @media(min-width:1200px) {
+                @media(min-width:1400px) {
                     .slider {
-                        max-width: 1118px;
+                        max-width: 1040px;
                     }
                     .slider__article {
                         line-height: 1.7;
-                        max-width: 100%;
-                        margin: 90px 60px;
+                        max-width: 1000px;
                     }
                     .slider__article::before {
                         position: absolute;
-                        top: -88%;
-                        left: -5%;
+                        top: -40%;
+                        left: -1%;
                     }
                     .slider__text {
                         font-size: 28px;
